@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2? família=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Poppins:wght@700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  padding-bottom: 50px;  
+  width: 100%;
+  margin: auto;
+  padding-top: 64px;
+  background-color: #290742;
+  border-bottom: 5px solid #4FFF4B;
+}
+
+.secheader {
+  width: 100%;
+  margin: auto;
+  max-width: 100.071rem;
+}
+
+.secheader nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secheader nav .logo{
+    padding-right: 5.75rem;
+}
+
+.secheader nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+}
+
+.secheader nav ul a{
+    text-decoration: none;
+    font-size: 1.125;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.secheader nav ul li:first-child{
+    border-left: 2px solid #4FFF4B;
+    padding-left: 3px;
+    font-weight: 700;  
+}
+
+.secheader nav ul li a:hover{
+    color: #969696;
+}
+
+.secheader .inputbusca {
+  display: flex;
+  width: 30%; 
+  padding-left: 5.75rem; 
+}
+
+.secheader .inputbusca input{
+    max-width: 300px;
+    height: 44px;
+    background-color: #170027;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.secheader .inputbusca input::placeholder{
+    color: rgb(172, 172, 172);
+}
+
+.secheader .inputbusca button{
+    width: 20%;
+    height: 43px;
+    border: none;
+    background-color: #9E6DC2;
+}
+
+.secteximg {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 64px;
+  width: 100%;
+  max-width: 100.071rem;
+}
+
+.secteximg 
+.textgroup,
+.imggroup{
+  width: 45%;
+}
+
+.secteximg .imggroup img{
+    width: 100%;
+    height: 100%;
+}
+
+.secteximg .textgroup h1{
+ color: #9E6DC2;
+ font-size: 3.6rem;
+ font-family: 'Poppins', sans-serif;
+ line-height: 55px;
+ margin-bottom: 16px;
+ font-style: normal;
+}
+
+.secteximg .textgroup p{
+    color: #FBF6FF;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+
+.vejamais{
+    display: flex;
+    align-items: center;
+}
+
+.secteximg .textgroup a{
+    text-decoration: none;
+    color: #9E6DC2;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+
+
+
+
+
