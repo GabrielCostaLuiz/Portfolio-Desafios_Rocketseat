@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+hr {
+  display: none;
+}
+
 html,
 body {
   height: 100vh;
@@ -19,7 +23,6 @@ html {
 }
 body {
   font-size: 1.6rem;
-  
 }
 
 header {
@@ -32,7 +35,7 @@ header {
 }
 
 nav {
-    display: flex;
+  display: flex;
   width: 100%;
   margin: auto;
   max-width: 115.071rem;
@@ -40,15 +43,19 @@ nav {
   align-items: center;
 }
 
-nav .logo {
-  padding-right: 10.75rem;
+nav a {
+  
+}
+
+nav a .logo {
+  width: 100%;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 33%;
+  width: 40%;
 }
 
 nav ul a {
@@ -69,8 +76,8 @@ nav ul li a:hover {
 
 nav .inputbusca {
   display: flex;
-  width: 30%;
-  padding-left: 10.75rem;
+  width: 21%;
+  
 }
 
 nav .inputbusca input {
@@ -93,8 +100,8 @@ nav .inputbusca button {
   background-color: #9e6dc2;
 }
 
-main{
-    padding-bottom: 50px;
+main {
+  padding-bottom: 50px;
 }
 
 .secteximg {
@@ -162,14 +169,13 @@ figure img {
 }
 
 section .nulo {
-    display: none;
-  }
+  display: none;
+}
 
-  a h2{
-      font-size: 2.3rem;
-  }
+a h2 {
+  font-size: 2.3rem;
+}
 /*  */
-
 
 .card1 {
   display: flex;
@@ -200,7 +206,7 @@ figure figcaption {
   text-decoration: none;
 }
 
- .textcard p {
+.textcard p {
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
@@ -225,12 +231,12 @@ article:first-of-type {
   margin-bottom: 30px;
 }
 
-article:nth-of-type(2){
-    margin-top: 30px;
+article:nth-of-type(2) {
+  margin-top: 30px;
 }
 
-hr{
-    opacity: 30%;
+hr {
+  opacity: 30%;
 }
 
 .cards2 {
@@ -241,4 +247,152 @@ hr{
 .card2in {
   max-width: 30%;
   width: 100%;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1150px) {
+  nav {
+    justify-content: space-evenly;
+  }
+
+  nav a{
+    padding-right:0 ;    
+  }
+
+  nav ul{
+    width: 40%;
+  }
+
+  nav .inputbusca {
+    width: 23%;
+    padding-left: 0;
+  }
+
+  .secteximg {
+    justify-content: space-around;
+  }
+
+  .cards2,
+  .card1 {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1180px) {
+  nav {
+    justify-content: space-evenly;
+  }
+
+  nav .inputbusca {
+    padding-left: 0;
+    width: 21%;
+  }
+
+  nav a {
+    width: 20%;
+    padding-right: 0;
+  }
+
+  .secteximg {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textgroup,
+  .imggroup {
+    width: 95% !important;
+    text-align: center;
+  }
+
+  .textgroup {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textgroup .vejamais {
+    text-align: center;
+  }
+
+  .cards2,
+  .card1 {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1100px) {
+  .inputbusca {
+    display: none !important;
+  }
+
+  nav {
+    justify-content: space-around;
+  }
+
+  nav a {
+    display: flex;
+    width: 20%;
+    align-items: center;
+  }
+
+  hr {
+    display: block !important;
+    opacity: 100%;
+  }
+
+  nav ul {
+    width: 70%;
+    justify-content: space-evenly;
+  }
+
+  .card1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card1in {
+    max-width: 90%;
+  }
+
+  .artigo {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .artigo article {
+    width: 40%;
+  }
+
+  article:nth-of-type(2) {
+    margin-top: 0px;
+  }
+
+  .cards2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card2in {
+    display: block;
+    max-width: 80%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+    nav a{
+        width: 18%;
+    }
+
+    nav ul{
+        width: 77%;
+    }
 }
