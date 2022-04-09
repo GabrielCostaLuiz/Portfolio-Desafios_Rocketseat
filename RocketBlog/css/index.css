@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2? família=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2? família=Poppins:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2? família=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2? família=Poppins:wght@700&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   outline: 0;
+  text-decoration: none;
 }
 
 html,
 body {
   height: 100vh;
-  width: 100vw;
 }
 
 html {
@@ -20,82 +19,82 @@ html {
 }
 body {
   font-size: 1.6rem;
+  
 }
 
 header {
-  padding-bottom: 50px;  
+  padding-bottom: 50px;
   width: 100%;
   margin: auto;
   padding-top: 64px;
   background-color: #290742;
-  border-bottom: 5px solid #4FFF4B;
+  border-bottom: 5px solid #4fff4b;
 }
 
-.secheader {
+nav {
+    display: flex;
   width: 100%;
   margin: auto;
-  max-width: 100.071rem;
-}
-
-.secheader nav {
-  display: flex;
-  width: 100%;
+  max-width: 115.071rem;
   justify-content: space-between;
   align-items: center;
 }
 
-.secheader nav .logo{
-    padding-right: 5.75rem;
+nav .logo {
+  padding-right: 10.75rem;
 }
 
-.secheader nav ul {
+nav ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
   width: 33%;
 }
 
-.secheader nav ul a{
-    text-decoration: none;
-    font-size: 1.125;
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+nav ul a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
-.secheader nav ul li:first-child{
-    border-left: 2px solid #4FFF4B;
-    padding-left: 3px;
-    font-weight: 700;  
+nav ul li:first-child {
+  border-left: 2px solid #4fff4b;
+  padding-left: 3px;
+  font-weight: 700;
 }
 
-.secheader nav ul li a:hover{
-    color: #969696;
+nav ul li a:hover {
+  color: #969696;
 }
 
-.secheader .inputbusca {
+nav .inputbusca {
   display: flex;
-  width: 30%; 
-  padding-left: 5.75rem; 
+  width: 30%;
+  padding-left: 10.75rem;
 }
 
-.secheader .inputbusca input{
-    max-width: 300px;
-    height: 44px;
-    background-color: #170027;
-    padding: 10px;
-    border: none;
-    color: white;
+nav .inputbusca input {
+  max-width: 300px;
+  height: 44px;
+  background-color: #170027;
+  padding: 10px;
+  border: none;
+  color: white;
 }
 
-.secheader .inputbusca input::placeholder{
-    color: rgb(172, 172, 172);
+nav .inputbusca input::placeholder {
+  color: rgb(172, 172, 172);
 }
 
-.secheader .inputbusca button{
-    width: 20%;
-    height: 43px;
-    border: none;
-    background-color: #9E6DC2;
+nav .inputbusca button {
+  width: 20%;
+  height: 43px;
+  border: none;
+  background-color: #9e6dc2;
+}
+
+main{
+    padding-bottom: 50px;
 }
 
 .secteximg {
@@ -104,52 +103,142 @@ header {
   margin: auto;
   margin-top: 64px;
   width: 100%;
-  max-width: 100.071rem;
+  max-width: 115.071rem;
 }
 
-.secteximg 
-.textgroup,
-.imggroup{
+.secteximg .textgroup,
+.imggroup {
   width: 45%;
 }
 
-.secteximg .imggroup img{
-    width: 100%;
-    height: 100%;
+.secteximg .imggroup img {
+  width: 100%;
+  height: 100%;
 }
 
-.secteximg .textgroup h1{
- color: #9E6DC2;
- font-size: 3.6rem;
- font-family: 'Poppins', sans-serif;
- line-height: 55px;
- margin-bottom: 16px;
- font-style: normal;
+.secteximg .textgroup h1 {
+  color: #9e6dc2;
+  font-size: 3.6rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 55px;
+  margin-bottom: 16px;
+  font-style: normal;
 }
 
-.secteximg .textgroup p{
-    color: #FBF6FF;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-family: 'Roboto', sans-serif;
-    line-height: 27px;
-    margin-bottom: 24px;
+.secteximg .textgroup p {
+  color: #fbf6ff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  line-height: 27px;
+  margin-bottom: 24px;
 }
 
-.vejamais{
-    display: flex;
-    align-items: center;
+.vejamais {
+  display: flex;
+  align-items: center;
 }
 
-.secteximg .textgroup a{
-    text-decoration: none;
-    color: #9E6DC2;
-    font-weight: bolder;
-    font-size: 1.8rem;
-    margin-right: 1rem;
+.secteximg .textgroup a {
+  text-decoration: none;
+  color: #9e6dc2;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  margin-right: 1rem;
 }
 
+main {
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 64px;
+  width: 100%;
+  max-width: 115.071rem;
+}
+
+/*  */
+
+figure img {
+  width: 100%;
+}
+
+section .nulo {
+    display: none;
+  }
+
+  a h2{
+      font-size: 2.3rem;
+  }
+/*  */
 
 
+.card1 {
+  display: flex;
+  justify-content: space-between;
+}
 
+.card1in {
+  margin-bottom: 5.5rem;
+  max-width: 45%;
+  width: 100%;
+}
 
+.afigure {
+  color: black;
+}
+
+figure figcaption {
+  margin-top: 10px;
+}
+
+.textcard {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1rem;
+}
+
+.textcard a {
+  text-decoration: none;
+}
+
+ .textcard p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.artigo {
+  max-width: 45%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.artigo article h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin: 8px 0 8px 0;
+  font-size: 1.8rem;
+  font-style: normal;
+}
+
+article:first-of-type {
+  margin-bottom: 30px;
+}
+
+article:nth-of-type(2){
+    margin-top: 30px;
+}
+
+hr{
+    opacity: 30%;
+}
+
+.cards2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card2in {
+  max-width: 30%;
+  width: 100%;
+}
