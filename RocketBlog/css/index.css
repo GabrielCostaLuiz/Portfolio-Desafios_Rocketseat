@@ -43,10 +43,6 @@ nav {
   align-items: center;
 }
 
-nav a {
-  
-}
-
 nav a .logo {
   width: 100%;
 }
@@ -77,7 +73,6 @@ nav ul li a:hover {
 nav .inputbusca {
   display: flex;
   width: 21%;
-  
 }
 
 nav .inputbusca input {
@@ -256,11 +251,11 @@ hr {
     justify-content: space-evenly;
   }
 
-  nav a{
-    padding-right:0 ;    
+  nav a {
+    padding-right: 0;
   }
 
-  nav ul{
+  nav ul {
     width: 40%;
   }
 
@@ -388,11 +383,11 @@ hr {
 }
 
 @media (max-width: 320px) {
-    nav a{
-        width: 18%;
-    }
+  nav a {
+    width: 18%;
+  }
 
-    nav ul{
-        width: 77%;
-    }
+  nav ul {
+    width: 77%;
+  }
 }
