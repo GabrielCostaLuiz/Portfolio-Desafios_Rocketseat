@@ -3,6 +3,7 @@
 </h1>
 
 <p align="center">Concluindo desafios da Rocketseat de criação de sites para complementar meu Portfólio</p>
+<p align="center">⚠️⚠️Baixe o projeto para ter uma visão melhor do site⚠️⚠️</p>
 
 🎯Desafios🎯
 ============
@@ -28,12 +29,13 @@
 ### `Layout Desafio`
 <img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/img/blog.png">
 
-### `Layout feito por mim (Responsivo)` 
+### `Layout feito por mim` 
 <p align="center">
 <img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/RocketBlog/img/site.png">
 </p>
 
-https://user-images.githubusercontent.com/53578058/162604299-b03095d6-751c-483e-9e5d-5a046d081ae5.mp4
+### `Responsividade` 
+<img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/RocketBlog/img/Responsividade.gif">
 
 
 
