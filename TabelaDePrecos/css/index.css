@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2? família=Open+Sans:wght@300;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+main {
+  background-image: linear-gradient(to bottom, #1d539e 50%, #f9fbfc 30%);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+header {
+  padding-top: 80px;
+  color: white;
+  font-style: normal;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+header hgroup h1 {
+  line-height: 100px;
+  font-size: 5rem;
+}
+
+header hgroup h2 {
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 1.8rem;
+  width: 39%;
+  margin: auto;
+}
+
+hr {
+  margin: 20px 0px 20px 0px;
+}
+
+.cards {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article {
+  background-color: white;
+  border-radius: 10px;
+  width: 32%;
+  text-align: left;
+  height: 50rem;
+  box-shadow: 0px 0px 1px #00000086;
+}
+
+article:nth-of-type(2) {
+  padding: 0px;
+}
+
+.arttxt p:nth-of-type(1) span:nth-of-type(1),
+.art2txt p:nth-of-type(1) span:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 3rem;
+  color: black;
+}
+
+.arttxt p:nth-of-type(1) span:nth-of-type(2),
+.art2txt p:nth-of-type(1) span:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+}
+
+.arttxt p:nth-of-type(2),
+.art2txt p:nth-of-type(2) {
+  color: #828799;
+  margin-top: 15px;
+}
+
+.arttxt p:nth-of-type(1),
+.art2txt p:nth-of-type(1) {
+  color: #828799;
+}
+
+.art2txt {
+  padding: 25px 25px 0px 25px;
+  height: 70%;
+}
+
+article hgroup {
+  padding: 25px;
+  display: flex;
+  background-color: #ffcc29;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: #1d539e;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.699);
+}
+
+article hgroup h3 {
+  background-color: #1d539e;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 40px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+article:nth-of-type(2) {
+  height: 53rem;
+}
+
+article:nth-of-type(1) h2,
+article:nth-of-type(3) h2 {
+  padding: 25px;
+}
+
+hr {
+  opacity: 20%;
+}
+
+article:nth-of-type(1) button,
+article:nth-of-type(3) button {
+  background-color: white;
+  border: 1px solid #1d539e;
+  color: #1d539e;
+}
+
+.arttxt {
+  padding: 0px 25px 0px 25px;
+  height: 70%;
+}
+
+.desc {
+  display: flex;
+  margin: 0px 0px 20px 0px;
+}
+
+.desc p {
+  margin-left: 10px;
+  color: #828799;
+  font-weight: 400;
+}
+
+.button {
+  margin: auto;
+  width: 90%;
+}
+
+.button button {
+  width: 100%;
+  background-color: #1d539e;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: white;
+  height: 60px;
+  font-size: 1.8rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
