@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">Concluindo desafios da Rocketseat de criação de sites para complementar meu Portfólio</p>
-<p align="center">⚠️⚠️Baixe o projeto para ter uma visão melhor do site⚠️⚠️</p>
+<p align="center">⚠️⚠️Baixe o projeto para ter uma visualização melhor do site⚠️⚠️</p>
 
 🎯Desafios🎯
 ============
