@@ -186,3 +186,75 @@ article:nth-of-type(3) button {
 button:hover {
   cursor: pointer;
 }
+
+@media (max-width:1024px){
+        button{
+            max-height: 45px;
+        }
+
+}
+
+@media (max-width:950px){
+    button{
+        max-height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards{
+    width: 95%;
+    }
+
+    article{
+        width: 32%;
+    }
+
+    hgroup h3{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    article:nth-of-type(3) button,
+    article:nth-of-type(1) button{
+        margin-top: 30px;
+    }
+
+    article:nth-of-type(2) button{
+        margin-top: 10px;
+    }
+
+    @media (max-width:700px){
+        main{
+            background-image: linear-gradient(to bottom, #1d539e 100%, #f9fbfc 0%);
+            padding: 0px;
+        }
+
+        header{
+            padding-top: 40px;
+        }
+
+        header hgroup h1{
+            line-height: 60px;
+            margin-bottom: 40px;
+        }
+
+        header hgroup h2{
+            width: 100%;
+        }
+
+
+        .cards{
+            flex-direction: column;
+        }
+
+        article{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+
+}
+
+}
