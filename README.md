@@ -30,8 +30,6 @@ Tabela de conteúdos
       * [Pricing Table](#pricing-table)
       * [Login Form CSS](#login-form-css)
       * [RocketShoes](#rocketshoes)
-      * [Página de Receita](#pagina-de-receita)
-      * [RocketNews](#rocketnews)
       * [Rocket NFTs](#rocket-nfts)
       * [Sidebar](#sidebar)
       * [RocketCoffee](#rocketcoffee)
@@ -46,8 +44,6 @@ Tabela de conteúdos
 - [x] Desafio "Pricing Table"
 - [ ] Desafio "Login Form CSS"
 - [ ] Desafio "RocketShoes"
-- [ ] Desafio "Página de Receita"
-- [ ] Desafio "RocketNews"
 - [ ] Desafio "Rocket NFTs"
 - [ ] Desafio "Sidebar"
 - [ ] Desafio "RocketCoffee"
@@ -96,26 +92,6 @@ Tabela de conteúdos
 
 ### `Layout`
 <img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/img/tenis.png">
-
-📚Pagina de Receita📚
-============
-<img alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/img/cookbook.png">
-
-### `Sobre o desafio`
-- <p>Nesse desafio você deverá criar uma página web de uma receita com título, imagem, lista de ingredientes e modo de preparo. O desafio está dividido em duas partes, no primeiro momento você irá criar a estrutura HTML com as informações da receita e na segunda parte será o momento de adicionar os estilos à página com o CSS.</p>
-
-### `Layout`
-<img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/img/cook.png">
-
-📚RocketNews📚
-============
-<img alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/img/rocketnews.png">
-
-### `Sobre o desafio`
-- <p>Desenvolva uma página web simples utilizando HTML e CSS que servirá no futuro para captação de leads ou inscrição em newsletter.</p>
-
-### `Layout`
-<img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/img/nftt.png">
 
 📚Rocket NFTs📚
 ============
