@@ -12,8 +12,6 @@
 - [x] Desafio "Pricing Table"
 - [ ] Desafio "Login Form CSS"
 - [ ] Desafio "RocketShoes"
-- [ ] Desafio "Página de Receita"
-- [ ] Desafio "RocketNews"
 - [ ] Desafio "Rocket NFTs"
 - [ ] Desafio "Sidebar"
 - [ ] Desafio "RocketCoffee"
