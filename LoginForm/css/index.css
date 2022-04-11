@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2? família=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none; 
+  }
+
+html,
+body {
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+main{
+    display: flex;
+}
+
+header{
+    width: 95px;
+    padding: 25px 0px 0px 20px;
+    margin-bottom: 70px;
+}
+
+header img{
+    width: 100%;
+}
+
+.secprincipal{
+    width: 50%;
+    background-color: #191816;  
+    
+}
+
+.principal{
+    background-color:#24221F;
+    width: 80%;
+    margin: auto;
+    border-radius: 4px ;
+    padding: 5%;
+}
+
+form{
+    background-color:#24221F;
+    width: 80%;
+    margin: auto;
+}
+
+form label, input{
+    display: block;
+}
+
+.check label, input{
+    display: initial;
+}
+
+input[type="submit"]{
+    width: 100%;
+}
+
+figure{
+    width: 50%;
+}
+
+figure img{
+    width: 100%;
+    margin-bottom: -4px;
+}
