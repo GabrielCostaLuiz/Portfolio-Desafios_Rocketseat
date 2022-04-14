@@ -15,8 +15,10 @@
           <img src="./img/logo.svg" alt="" />
         </header>
         <div class="principal">
-          <h1>Faça seu login</h1>
-          <h2>Entre com suas informações de cadastro</h2>
+          <hgroup>
+            <h1>Faça seu login</h1>
+            <h2>Entre com suas informações de cadastro</h2>
+          </hgroup>
 
           <form action="">
             <label for="femail">E-mail</label>
@@ -24,23 +26,36 @@
               type="email"
               id="femail"
               name="femail"
+              class="inputdig"
               placeholder="Digite seu e-mail"
             />
             <label for="lpass">Senha</label>
+            <!-- <div class="inputsenha"> -->
             <input
               type="password"
               id="lpass"
               name="lpass"
+              class="inputdig"
               placeholder="Digite sua senha"
             />
+            <!-- </div> -->
             <div class="check">
-              <input type="checkbox" id="lembre" name="lembre" value="Lembre" />
-              <label for="lembre">Lembre-me</label>
-              <a href="">Esqueci minha senha</a>
+              <div class="boxLembre">
+                <input
+                  type="checkbox"
+                  id="lembre"
+                  name="lembre"
+                  value="lembre"
+                />
+                <label for="lembre">Lembre-me</label>
+              </div>
+              <a class="esqsenha" href="">Esqueci minha senha</a>
             </div>
-            <input type="submit" value="Submit" />
-            <a href="">Não tem uma conta?<span>Registre-se</span></a>
+            <input type="submit" value="ENTRAR" />
           </form>
+          <a href=""
+            >Não tem uma conta? <span><strong>Registre-se</strong></span></a
+          >
         </div>
       </section>
 
