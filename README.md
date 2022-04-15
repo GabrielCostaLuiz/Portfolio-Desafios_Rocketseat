@@ -42,7 +42,7 @@ Tabela de conteúdos
 
 - [x] Desafio "RocketBlog"
 - [x] Desafio "Pricing Table"
-- [ ] Desafio "Login Form CSS"
+- [x] Desafio "Login Form CSS"
 - [ ] Desafio "RocketShoes"
 - [ ] Desafio "Rocket NFTs"
 - [ ] Desafio "Sidebar"
