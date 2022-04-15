@@ -32,7 +32,7 @@
 ### `Layout feito por mim`
 
 <p align="center">
-<img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/LoginForm/img/layoutrespon.pn">
+<img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/LoginForm/img/layoutrespon.png">
 </p>
 <p align="center">
 <img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/LoginForm/img/meulayout.png">
