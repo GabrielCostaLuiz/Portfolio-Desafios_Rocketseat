@@ -144,6 +144,8 @@ form .inputdig:focus{
 .check{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
 }
 
 #femail{
@@ -207,6 +209,41 @@ figure img{
     margin-bottom: -4px;
 }
 
-.boxLembre{
-    margin-bottom: 10px;
+@media (max-width:900px){
+    figure{
+        display: none;
+    }
+
+    .secprincipal{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #femail{
+        padding-left: 33px;
+    }
+    
+    #femail:focus{
+        background-image: url(../img/mail-focus.svg);
+    }
+    
+    #lpass{
+        padding-left: 33px;
+    }
 }
+
+@media (max-width:380px) {
+    h2{
+        font-size: 1rem;
+    }
+
+    .esqsenha{
+        font-size: 1rem;
+    }
+
+    .boxLembre label{
+        font-size: 1rem;
+    }
+
+}
+
