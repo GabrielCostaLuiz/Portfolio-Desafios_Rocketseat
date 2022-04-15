@@ -17,55 +17,45 @@
     color:var(--cinza) ;
   }
 
-html,
-body {
-  height: 100vh;
-}
+/* html, body{
+    height: 100%;
+}   */
 
 html {
   font-size: 62.5%;
 }
+
 body {
   font-size: 1.6rem;
-}
-
-a{
-    color: var(--amarelo);
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1rem;
-}
-
-strong{
-    color: var(--amarelo);
-}
-
-#registre{
-    color: var(--amarelo); 
-}
-
-.esqsenha{
-    font-weight: 600;
 }
 
 main{
     display: flex;
 }
 
-header{
-    width: 95px;
-    padding: 25px 0px 0px 20px;
-    margin-bottom: 70px;
+.secprincipal{
+    width: 50.7%;
+    background-color: var(--marromEsc2);  
 }
 
-header img{
+.secprincipal header{
+    width: 13.5rem;
+    padding: 2.5rem 0rem 0rem 2rem;
+    margin-bottom: 12.6rem;
+}
+
+.secprincipal header img{
     width: 100%;
 }
 
-.secprincipal{
-    width: 50%;
-    background-color: var(--marromEsc2);  
+.principal{
+    background-color:var(--marromEsc);
+    width: 80%;
+    height: 46.3rem;
+    margin: auto;
+    border-radius: 0.4rem ;
+    padding: 8% 13%;
+    text-align: center;
 }
 
 hgroup{
@@ -74,34 +64,25 @@ hgroup{
     margin: auto;
 }
 
-h1{
+hgroup h1{
     background-image: url(../img/log-in.svg);
     background-repeat: no-repeat;
-    padding-left: 30px;
+    padding-left: 3rem;
     color:  #D4CCB6;
 
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 2rem;
-    margin-bottom: 15px;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
 }
 
-h2{
+hgroup h2{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.2rem;   
-    margin-bottom: 25px; 
-}
-
-.principal{
-    background-color:var(--marromEsc);
-    width: 80%;
-    margin: auto;
-    border-radius: 4px ;
-    padding: 5%;
-    text-align: center;
+    font-size: 1.5rem;   
+    margin-bottom: 2.5rem; 
 }
 
 form{
@@ -118,41 +99,39 @@ form label, input{
 form label{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+
 }
 
 form .inputdig{
     width: 100%;
-    padding: 10px 0px 10px 10px;
+    padding: 1.3rem 0rem 1.3rem 1.3rem;
     border: none;
     background: transparent;
-    border: 1px solid gray;
-    border-radius: 5px;
-    margin: 5px 0px 15px 0px;
+    border: 0.1rem solid gray;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0rem 2rem 0rem;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 form .inputdig:focus{
-    outline: 2px solid orange;
+    outline: 0.2rem solid orange;
 }
 
-.check{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 8px;
+#femail, #lpass{
+    background-repeat: no-repeat;
+    background-position:2%;
+    padding-left: 3rem;
 }
 
 #femail{
     background-image: url(../img/mail.svg);
-    background-repeat: no-repeat;
-    background-position:2%;
-    padding-left: 30px;
+    
 }
 
 #femail:focus{
@@ -161,20 +140,18 @@ form .inputdig:focus{
 
 #lpass{
     background-image: url(../img/lock.svg);
-    background-repeat: no-repeat;
-    background-position:2%;
-    padding-left: 30px;
 }
 
 #lpass:focus{
     background-image: url(../img/lock-focus.svg);
 }
 
-/* .inputsenha{
-    background-image: url(../img/eye.svg);
-    background-repeat: no-repeat;
-    background-position: 95% 40%;  
-} */
+.check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 
 .check label, input{
     display: initial;
@@ -182,14 +159,14 @@ form .inputdig:focus{
 
 input[type="submit"]{
     width: 100%;
-    padding: 10px;
+    padding: 1.5rem;
     background-color: var(--amarelo);
     border: none;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     color: var(--marrom);
-    margin: 5px 0px 10px 0px;
+    margin: 0.5rem 0rem 1rem 0rem;
 
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.5rem;
@@ -200,16 +177,137 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
+.esqsenha{
+    font-weight: 600;
+}
+
+a{
+    color: var(--amarelo);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+strong{
+    color: var(--amarelo);
+}
+
+.registre{
+    margin-top: 0.5rem;
+}
+
 figure{
-    width: 50%;
+    width: 49.3%;
+    height: 100%;
 }
 
 figure img{
     width: 100%;
-    margin-bottom: -4px;
+    margin-bottom: -0.4rem;
+    height: 100%;   
+    image-rendering:pixelated;
+    filter: saturate(100%) brightness(82%) contrast(120%);
+
 }
 
-@media (max-width:900px){
+@media (min-width:1441px) {
+    html, body{
+        height: auto;
+    }
+
+    .principal{
+        height: 65%;
+        padding: 8% 13% 3% 13%;
+    }
+
+    hgroup{
+        font-size: 100%;
+    }
+
+    hgroup h1, hgroup h2{
+        width: auto;
+        background-size: 6%;
+    }
+
+    hgroup h1{
+        font-size: 3em ;
+        padding-left: 2em;
+        margin-bottom: 0.5em;
+        background-size: 1.27em;
+    }
+
+    hgroup h2{
+        font-size: 1.7em;
+        margin-bottom: 2em;
+    }
+
+    form{
+        font-size: 100%; 
+    }
+
+    form label{
+        font-size: 1.7em;
+    }
+
+    form .inputdig{
+        font-size: 1.5em;
+        padding: 1em 0em 1em 1em;
+        margin: 1em 0em 2em 0em;
+    }
+
+    #femail, #lpass{
+        padding-left: 3em;
+        background-size: 1.8em;
+    }
+
+    .check{
+        margin-bottom: 2em;
+        font-size: 1.1em;
+    }
+
+    input[type="checkbox"]{
+        min-width:25px;
+        min-height: 25px;
+        margin-right: 5px;
+    }
+
+    a{
+        font-size: 1.4em;
+    }
+
+    input[type="submit"]{
+        padding: 1.5em;
+        margin: 0em 0em 2em 0em;
+        font-size: 1.8em;
+    }
+
+    .registre{
+        font-size: 1.3em;   
+    }
+
+}
+
+@media (max-width:1250px) {
+    html, body{
+        height: auto;
+    }
+
+    figure{
+        height: 79.8rem;
+    }
+
+    .principal{
+        padding: 5%;
+        height: 43rem;
+    }
+}
+
+@media (max-width:910px){
+    .secprincipal header{
+        margin-bottom: 30px;
+    }
+
     figure{
         display: none;
     }
@@ -223,27 +321,45 @@ figure img{
         padding-left: 33px;
     }
     
-    #femail:focus{
-        background-image: url(../img/mail-focus.svg);
-    }
-    
     #lpass{
         padding-left: 33px;
     }
+
+
 }
 
-@media (max-width:380px) {
-    h2{
-        font-size: 1rem;
+@media (max-width:550px) {
+    hgroup h2{
+        font-size: 1.3rem;
     }
 
+    .esqsenha{
+        font-size: 1.1rem;
+    }
+
+    .boxLembre label{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 340px) {
+    hgroup h1{
+        font-size: 1.9rem;
+    }
+
+    hgroup h2{
+        font-size: 1.2rem;
+    }
+
+    a{
+        font-size: 1.2rem;
+    }
     .esqsenha{
         font-size: 1rem;
     }
 
     .boxLembre label{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
-
 }
 
