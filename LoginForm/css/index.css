@@ -304,8 +304,30 @@ figure img{
 }
 
 @media (max-width:910px){
+   
+
+    .secprincipal{
+        background-color: var(--marromEsc);
+    }
+
+
     .secprincipal header{
-        margin-bottom: 30px;
+        margin-bottom: 0;
+        padding-left: 5%;
+    }
+
+    .principal{
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    form, hgroup h1, hgroup h2{
+        width: 100%;
+    }
+
+    form, hgroup{
+        text-align: left;
+        margin: 0;
     }
 
     figure{
@@ -318,11 +340,11 @@ figure img{
     }
 
     #femail{
-        padding-left: 33px;
+        padding-left: 35px;
     }
     
     #lpass{
-        padding-left: 33px;
+        padding-left: 35px;
     }
 
 
