@@ -1,0 +1,472 @@
+:root {
+  --button: #FF0000;
+  --main-background:  #ececed;
+  --background: #C4C4C4;
+  --text: #000;
+  --footer: #000;
+  --text-description: #9C9696;
+}
+
+@font-face {
+  font-family: Roboto400;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+  font-family: Roboto700;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf)
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0;
+  box-sizing: border-box;
+  color: var(--text);
+  font-family: Roboto700;
+  list-style: none;
+}
+
+html::-webkit-scrollbar{
+  display: none;
+}
+
+main{
+  background-color: var(--main-background);
+
+  display: flex;
+  width: 100%;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 4.8rem;
+}
+
+.logo{
+  width: 12%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 3.2rem;
+}
+
+.respon{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.links{
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.links ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.busca{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 30%;
+}
+
+.busca input{
+  height: 2.5rem;
+  width: 12rem;
+  padding-left: 40px;
+  border: none;
+
+  background-image: url(../img/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: 5%;
+}
+
+.busca img{
+  cursor: pointer;
+}
+
+.container{
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+#checkbox-menu{
+  position: absolute;
+  opacity: 0;
+}
+
+label{
+  cursor: pointer;
+  position: relative;
+  display: block;
+  height: 22px;
+  width: 30px;
+}
+
+label span{
+  position: absolute;
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background: #fd0808;
+  transition: 0.25s ease-in-out;
+}
+
+label span:nth-child(1){
+  top: 0;
+}
+
+label span:nth-child(2){
+  top: 8px;
+}
+
+label span:nth-child(3){
+  top: 16px;
+}
+
+#checkbox-menu:checked ~ label span:nth-child(1){
+  transform: rotate(-45deg);
+  top: 8px;
+}
+
+#checkbox-menu:checked ~ label span:nth-child(2){
+  opacity: 0;
+}
+
+#checkbox-menu:checked ~ label span:nth-child(3){
+  transform: rotate(45deg);
+  top:8px;
+}
+
+.descri{
+  padding-top: 12.5%;
+  width: 37.5%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.descri h1{
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+
+.descri p:nth-of-type(1){
+  color: var(--text-description);
+  margin: 20px 0px 41px 0px;
+}
+
+.descri p:nth-of-type(2){
+  margin-bottom: 25px;
+  font-size: 2.6rem;
+}
+
+.descri button{
+  background-color: var(--button);
+  color: white;
+  border: none;
+  padding: 8%;
+  width: 80%;
+  font-size: 1.8rem;
+}
+
+.descri button:hover{
+  cursor: pointer;
+}
+
+.descri .diframepreco{
+  display: none;
+}
+
+.tenimg{
+  background-color: var(--background);
+
+  padding-top: 12.5%;
+  width: 62.5%;
+}
+
+.imggran{
+  width: 100%;
+  text-align: center;
+}
+
+.imggran img{
+  width: 70%;
+  image-rendering: pixelated;
+}
+
+.imgspeqs{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 35px;
+}
+
+.imgpeq{
+width: 30%;
+}
+
+.imgpeq img{
+  width: 100%;
+  height: 100%;
+}
+
+.imgpeq:nth-of-type(1){
+  margin-top: 5px;
+}
+
+.imgpeq:nth-of-type(2) img{
+  border-bottom: 5px solid red;
+}
+
+.imgpeq:nth-of-type(3){
+  margin-top: 5px;
+}
+
+footer{
+  display: flex;
+}
+
+iframe{
+  border: none;
+}
+
+.flinks{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  margin-bottom: -2px;
+  background-color: var(--main-background);
+}
+
+.flinks ul{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.flinks ul li{
+    width: 100%;
+    text-align: center;
+  }
+
+.flinks a{
+  font-size: 1.1rem;
+}
+
+.explore{
+  width: 35.5%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -2px;
+}
+
+.explore a{
+  color: white;
+  background-image: url(../img/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  width: 45%;
+}
+
+@media (max-width:1300px) {
+  .descri{
+    padding-bottom: 70px;
+  }
+
+  .imgspeqs{
+    padding-bottom: 0px;
+  }
+
+  .imggran{
+    height: 70%;
+  }
+
+  .flinks ul li{
+    width: 100%;
+    text-align: center;
+  }
+
+  .explore a{
+    width: 67%;
+    
+  }
+}
+
+@media (max-width:1000px) {
+  .links ul {
+    width: 100%;
+  }
+
+  .links ul li a{
+    font-size: 1rem;
+  }
+
+  .busca{
+    width: 35%;
+    justify-content: space-around;
+  }
+
+  .descri{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .descri h1{
+    font-size: 2.6rem;
+    line-height: 3rem;
+  }
+
+  .flinks ul{
+width: 100%;
+  }
+
+  .flinks ul li{
+    width: 100%;
+    text-align: center;
+  }
+
+  .flinks ul li a{
+    font-size: 0.7rem;
+  }
+
+
+  .explore a{
+    font-size: 1rem;
+    width: 75%;
+  }
+  
+}
+
+@media (max-width:850px) {
+  header{
+    justify-content: space-between;
+    width: 90%;
+    left: 20px;
+  }
+
+  .container{
+    display: flex;
+  }
+
+  .respon{
+    display: none;
+  }
+
+  main{
+    flex-direction: column-reverse;
+  }
+
+  .tenimg{
+    width: 100%;
+    padding-top:20%;
+  }
+
+  .imgspeqs{
+    margin-bottom: 15px;
+  }
+
+  .descri{
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .descri h1{
+    font-size: 1.7rem;
+    text-align: center;
+    line-height:normal;
+  }
+
+  .descri p:nth-of-type(1){
+    margin: 15px 0px 20px 0px;
+  }
+
+  .descri .diframepreco{
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .descri p:nth-of-type(2){
+    margin-bottom: 15px;
+  }
+
+  .descri button{
+    padding: 5%;
+    font-size: 1.3rem;
+  }
+
+
+  footer{
+    flex-wrap:wrap;
+  }
+
+  .diframe{
+    display: none;
+  }
+
+  .diframe iframe{
+    margin-bottom: 5px!important;
+  }
+
+  .flinks{
+    height: 80px;
+    background-color: var(--background);
+  }
+
+  .flinks ul li{
+    width: 100%;
+    text-align: center;
+  }
+
+  .flinks ul li a{
+    font-size:0.55rem ;
+  }
+
+  .explore{
+    width: 40%;
+  }
+
+  .explore a{
+    font-size: 1rem;
+    width: 50%;
+  }
+}
+
+@media (max-width:700px) {
+  .explore a{
+    font-size: 0.8rem;
+    width: 120px;
+  }
+}
+
+
+
