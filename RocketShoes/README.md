@@ -31,7 +31,7 @@
 ### `Layout feito por mim`
 
 <p align="center">
-<img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/RocketShoes/img/meulayout.png">
+<img  alt="" src="https://github.com/GabrielCostaLuiz/Portfolio-Desafios_Rocketseat/blob/main/RocketShoes/img/meulayout.jpeg">
 </p>
 
 ### `Responsividade`
